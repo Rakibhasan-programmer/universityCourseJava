@@ -5,9 +5,8 @@ public class Horse implements Animal, Herbivore{
     public void walk() {
         System.out.println("Horse can walk");
     }
-
     @Override
     public void run() {
-        System.out.println("It can run too");
+        System.out.println("It can run also.");
     }
 }
