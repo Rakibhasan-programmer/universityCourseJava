@@ -20,4 +20,8 @@ public class BoxConstructor {
         int w = this.width, h = this.height, d = this.height;
         System.out.println(w * d * h);
     }
+
+    void cal(){
+        System.out.println("Hi from Box Constructor");
+    }
 }
